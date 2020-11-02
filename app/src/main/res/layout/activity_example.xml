@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Stretch"
+    android:background="@color/ColorRamDesk">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@color/ColorDesk">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="240sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="20sp">
+
+            <ImageView
+
+                android:layout_width="25sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/partNumb1" />
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/partNumb2" />
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_znak" />
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/partNumb3" />
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="wrap_content"
+            android:id="@+id/partNumb4" />
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/znakRavno" />
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/partTotalOne" />
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/partTotalTwo" />
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/partTotalThree" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="280sp"
+            android:layout_height="170dp"
+            android:theme="@style/Buttons">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:text="1"
+                    android:id="@+id/id_enterOne"
+                    android:layout_column="0" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:text="2"
+                    android:id="@+id/id_enterTwo"
+                    android:layout_column="1" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:text="3"
+                    android:id="@+id/id_enterThree"
+                    android:layout_column="2" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:text="4"
+                    android:id="@+id/id_enterFour"
+                    android:layout_column="3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:text="5"
+                    android:id="@+id/id_enterFive"
+                    android:layout_column="0" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:text="6"
+                    android:id="@+id/id_enterSix"
+                    android:layout_column="1" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:text="7"
+                    android:id="@+id/id_enterSeven"
+                    android:layout_column="2" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:text="8"
+                    android:id="@+id/id_enterEight" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:text="9"
+                    android:id="@+id/id_enterNine"
+                    android:layout_column="0" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+
+                    android:text="0"
+                    android:id="@+id/id_enterZero"
+                    android:layout_column="1" />
+
+                <Button
+
+                    android:text="BS"
+                    android:id="@+id/btnReturn"
+                    android:layout_column="2" />
+
+                <Button
+
+                    android:text="C"
+                    android:id="@+id/btnClear"
+                    android:layout_column="3" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/LayoutHor">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/countsRightsAnswers" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/countsLeftAnswers" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/Rat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/PrimerArr"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorShadowBtn">#463ba9</color>
+    <color name="blue">#2e1cd1</color>
+    <color name="yellow">#e4e713</color>
+    <color name="ColorDesk">#e12a461e</color>
+    <color name="ColorRamDesk">#e1938021</color>
+</resources>
